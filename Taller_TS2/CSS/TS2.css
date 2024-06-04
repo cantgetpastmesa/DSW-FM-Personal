@@ -1,0 +1,29 @@
+.left{
+    max-width: 50%;
+    padding-left: 70px;
+}
+
+a{
+    color: dodgerblue;
+}
+
+#header{
+    background-color: darkcyan;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.card-title{
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.card-text{
+    padding-left: 10px;
+    margin: 5px;
+    font-size: large;
+}

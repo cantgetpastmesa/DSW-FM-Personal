@@ -1,0 +1,16 @@
+.left{
+    max-width: 50%;
+    padding-left: 70px;
+}
+
+.name{
+    color: dodgerblue;
+}
+
+#header{
+    background-color: darkcyan;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}

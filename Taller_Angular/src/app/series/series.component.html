@@ -1,0 +1,34 @@
+<div class="container" style="height: 100vh; display: flex; flex-direction: column;"> 
+  <div class="row"  style="flex-grow: 1; overflow-y: hidden;"> 
+    <div class="col-md-6" style="overflow-y: hidden;"> 
+      <div class=" scrollable-table" style="height: 80vh; border: 1px solid #ccc; padding: 5px;">
+        <table class="table">
+          <thead>
+            <tr>
+
+              <th scope="col" style="font-size: 17px">#</th>
+              <th scope="col" style="font-size: 17px">Nombre</th>
+              <th scope="col" style="font-size: 17px">Canal</th>
+              <th scope="col" style="font-size: 17px">Temporadas</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let c of series">
+              <td style="background-color: #bb7676e8;">{{ c.id }}</td>
+              <td style="background-color: #bb7676e8;"><a href="#" class="serie-link">{{ c.name }}</a></td>
+              <td style="background-color: #bb7676e8;">{{ c.channel }}</td>
+              <td style="background-color: #bb7676e8;">{{ c.seasons }}</td>
+            </tr>
+        </tbody>
+      </table>
+      <table class="scrollable-table">
+        <tbody>
+          <tr>
+            <td>Temporadas promedio:</td>
+            <td>{{ average }}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>
